@@ -1,6 +1,5 @@
 import java.io.*;
-
-public class encapsulation {
+class encap {
 
 	private String name;
 	private int age;
@@ -40,18 +39,22 @@ public class encapsulation {
 	}
 }
 
-
-public class Employee{
+public class encapsulation{
 	public static void main(String[] args) {
-		encapsulation obj4=new encapsulation();
+		encap obj9=new encap();
 		
-		obj4.setName("Arya");
-		obj4.setAge(25);
-		obj4.setSalary(20000.23);
-		obj4.setHouseNo(84);
-		System.out.println("Name: "obj4.getName());
-		System.out.println("Age: "obj4.getAge());
-		System.out.println("Salary: "obj4.getSalary());
-		System.out.println("House Number: "obj4.getHouseNo());
+		
+		obj9.setName("Arya");
+		obj9.setAge(25);
+		obj9.setSalary(2500.00);
+		obj9.setHouseNo(83);
+		System.out.println("Name: "+obj9.getName());
+		System.out.println("Age: "+obj9.getAge());
+		System.out.println("Salary: "+obj9.getSalary());
+		System.out.println("House Number: "+obj9.getHouseNo());
+		
 	}
 }
+
+
+
